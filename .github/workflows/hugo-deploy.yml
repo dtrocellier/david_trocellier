@@ -6,6 +6,7 @@ on:
     - master
 
     
+    
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -27,3 +28,5 @@ jobs:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./public
+
+ 
