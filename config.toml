@@ -1,5 +1,5 @@
 #baseURL = "http://localhost:1313/"
-baseURL = "https://dtrocellier.github.io/"
+baseURL = "https://dtrocellier.github.io/le_teich_et_toi/"
 languageCode = "en-us"
 title = "Reachy by Pollen Robotics, an open source programmable humanoid robot"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
