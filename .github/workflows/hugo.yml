@@ -74,13 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 
-  #Send to 
-  send_to_hostinger : 
-    name: 📂 Sync files
-    uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-    with:
-      server: ${{secret.SERVER}}
-      username: ${{secret.USERNAME}}
-      password: ${{ secrets.PASSWORD }}
-      local-dir : ./gh-pages
-      server-dir: /public_html
+
