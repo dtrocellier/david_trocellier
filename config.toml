@@ -1,9 +1,8 @@
-baseURL = "https://dtrocellier.github.io/david_trocellier/"
+baseURL = "https://www.pollen-robotics.com/"
 languageCode = "en-us"
 title = "Reachy by Pollen Robotics, an open source programmable humanoid robot"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 googleAnalytics = "UA-164958440-1"
-
 theme = "pollen042020"
 relativeURLs = true
 
