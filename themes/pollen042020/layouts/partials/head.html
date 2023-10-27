@@ -29,14 +29,14 @@
     {{- end }}
 
     
-    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
     {{ if .IsHome -}}
-    <link rel="stylesheet" href="{{ "css/homepage.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/homepage.css" | absURL }}">
     {{end}}
 
-    <link rel="stylesheet" href="{{ "css/pollen.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "css/reachy.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/pollen.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/reachy.css" | absURL }}">
     
     
     {{ template "_internal/google_analytics.html" . }}
