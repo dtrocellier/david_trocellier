@@ -73,5 +73,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ftp://davidtrocellier.com
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          server-dir: public_html/
 
 
