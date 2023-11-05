@@ -79,7 +79,7 @@ jobs:
         with:
 
           #ftp://89.117.169.76
-          server: ftp.davidtrocellier.com
+          server: davidtrocellier.com
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           server-dir: public_html/
